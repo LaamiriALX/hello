@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+.logo{
+    text-decoration: none;
+    font-family: 'Saira ExtraCondensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #EA5252;
+    margin-top: 3px;
+    flex-grow: 4;
+}
+.search{
+    display: flex;
+}
+.search_bar{
+    width: 314px;
+    height: 38px;
+    margin-top: 18px;
+
+    border-color: #EA5252;
+}
+.button{
+    margin-top: 18px;
+    margin-left: -4px;
+    width: 38px;
+    height: 38px;
+    border: #EA5252 2px solid;
+    background-color: #EA5252;
+    cursor: pointer;
+}
+.my_courses{
+    text-decoration: none;
+    color: #EA5252;
+    margin-top: 26px;
+    
+}
+
+.card_icon{
+    margin-top: 20px;
+
+}
+.log_in_button {
+    background-color: #EA5252;
+    border-color: #EA5252;
+    color: white;
+    cursor: pointer;
+    width: 144px;
+    height: 38px; 
+    border-radius: 2px;
+    margin-top: 17px;
+}
+.nav_bar ul{
+    background-color: #EA5252;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_bar ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;   
+}
+.cover{
+    margin-left: 40px;
+    margin-top: 70px;
+    background-image: url(/imgs/coverPhoto.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.content{
+    width: 500px;
+    margin-left: 181px;
+}
+.cover h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #EA5252;
+    padding-bottom: 50px;
+}
+.paragraf{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+    color: #585858;
+}
+.join-as{
+    cursor: pointer;
+    background-color: #EA5252;
+    color: #FFFFFF;
+    border-color: #EA5252;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    width: 126px;
+    height: 44px;
+    margin-top: 12PX;
+}
+.social-media{
+    
+    position:fixed;
+    z-index: 99;
+    top: 294px;
+    width: 100px;
+    height: 202px;
+    margin-left: -27px;
+}
+.social-media .fb {
+    cursor: pointer;
+    
+    padding-left: 2px;
+    padding-top: 13px;
+    transition: 0.3s;
+}
+.social-media .fb:hover{
+    transform: scale(1.2);
+}
+.twitter{
+    cursor: pointer;
+    padding-left: 72px;
+    padding-top: 13px;
+    transition: 0.3s;
+}
+.twitter:hover{
+    transform: scale(1.2);
+}
+.instagram{
+    cursor: pointer;
+    padding-left: 72px;
+    padding-top: 13px;
+    transition: 0.3s;
+}
+.instagram:hover{
+    transform: scale(1.2);
+}
+.linkedin{
+    cursor: pointer;
+    padding-left: 72px;
+    padding-top: 13px;
+    transition: 0.3s;
+}
+.linkedin:hover{
+    transform: scale(1.2);
+}
+.ourStatus{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+.learner{
+    text-align: center;
+    width: 232px;
+    height: 106px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #EA5252;
+    
+}
+.learner img{
+    height: 60px;
+    width: 60px;
+}
+.learner h3 {
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 45px;
+}
+.Instructor{
+    text-align: center;
+    width: 232px;
+    height: 106px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #EA5252;
+}
+.Instructor img{
+    height: 60px;
+    width: 60px;
+}
+.Instructor h3 {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 45px;
+}
+.Certified{
+    text-align: center;
+    width: 232px;
+    height: 106px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #EA5252;
+}
+.Certified img{
+    height: 60px;
+    width: 60px;
+}
+.Certified h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 45px;
+}
+.header_top_courses{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_top_courses h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+}
+.header_top_courses a{
+    text-decoration: none;
+    color: #EA5252;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    transition: 0.3s;
+}
+.header_top_courses a:hover{
+    transform: scale(1.2);
+}
+
+.top_courses{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+    
+}
+.courses{
+    width: 290px;
+    /* display: flex; */
+    transition: 0.3s;
+    border: transparent 2px solid;
+    border-radius: 9px;
+
+}
+.courses:hover{
+    transform: scale(1.09);
+    border: #EA5252 2px solid;
+    background-color: #858383b0;
+}
+.img_courses{
+    width: 100%;
+}
+.courses h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 7px;
+
+}
+.courses p{
+    padding-bottom: 12px;
+    padding-left: 7px;
+}
+.reting{
+    display: contents;
+}
+.reting h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-block;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.reting p {
+    display: inline-block;
+    padding-left: 13px;
+    padding-left: 7px;
+
+}
+
+.praising{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7px;
+}
+.praising h3 span{
+    font-size: 16px;
+    font-weight: 300;
+}
+.Rectangle{
+    display: flex;
+    margin-top: 50px;
+}
+.poligon1{ 
+    background-color: #EA5252;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 98% 100%, 0% 100%);
+    display: flex;
+    width: 34%;
+    height: 150px;
+    flex-wrap: wrap;
+    
+}
+.poligon1 img{
+    height: 62px;
+    width: 62px;
+    margin: auto;
+}
+
+.poligon1 p {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 7px;
+    width: 80%;
+}
+.poligon1 a{
+    text-decoration: none;
+    color: #FDBF00;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.poligon2{
+    background-color: #EA5252;
+    text-align: center;
+    clip-path: polygon(2% 0 , 100% 0 , 98% 100% , 0 100%);
+    display: flex;
+    width: 34%;
+    height: 150px;
+    flex-wrap: wrap;
+}
+.poligon2 img{
+    height: 62px;
+    width: 62px;
+    margin: auto;
+}
+.poligon2 p {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 7px;
+    width: 80%;
+}
+.poligon2 a{
+    text-decoration: none;
+    color: #FDBF00;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.poligon3{
+    background-color: #EA5252;
+    text-align: center;
+    clip-path: polygon(2% 0 , 100% 0 , 100% 100% , 0 100%);
+    display: flex;
+    width: 34%;
+    height: 150px;
+    flex-wrap: wrap;
+}
+.poligon3 img{
+    height: 62px;
+    width: 62px;
+    margin: auto;
+    
+}
+.pol-contente{
+    text-align: justify;
+    align-self: center;
+    width: 70%;
+    
+}
+.poligon3 p {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 7px;
+    width: 80%;
+}
+.poligon3 a{
+    text-decoration: none;
+    color: #FDBF00;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+.recommandedCourses_headr{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.recommandedCourses_headr h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+}
+
+.recommandedCourses_headr a{
+    text-decoration: none;
+    color: #EA5252;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    transition: 0.3s;
+}
+.recommandedCourses_headr a:hover{
+    transform: scale(1.2);
+}
+.recommandedCourses {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-top: 70px;
+    
+}
+.Recommanded_categories_for_you{
+    width: 70%;
+    /* display: flex; */
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+.headr_Recommanded_categories_for_you h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+}
+.categories{
+    margin-top: 30px;
+    height: 175px;
+}
+.categories ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.categories ul li{
+    margin: 13px;
+    height: 27px;
+    margin: 12px;
+}
+.categories ul li a{
+    text-decoration: none;
+    color: black;
+    border: #EA5252 2px solid;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    padding: 7px;
+}
+.categories ul li a:hover{
+    background-color: #EA5252;
+    color: #FFFFFF;
+}
+   
+.theBestSellingCourses_headr{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.theBestSellingCourses_headr h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+}
+
+.theBestSellingCourses_headr a{
+    text-decoration: none;
+    color: #EA5252;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    transition: 0.3s;
+}
+.theBestSellingCourses_headr a:hover{
+    transform: scale(1.2);
+}
+.BestSellingCourses{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+}
+.comment{
+    height: 450px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 30px;
+    background: center;
+    background-image: url(/imgs/4-EeTnaC1S4.png);
+    background-size: cover;
+    clip-path: polygon(0% 17% , 100% 0 , 100% 100% , 0 100%);
+   
+}
+.commentText{
+    width: 35%;
+    padding-left: 60px;
+    padding-top: 160px;
+    color: #FFFFFF;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: justify;
+}
+.footer{
+    margin-top: 30px;
+    background-color: #EA5252;
+    text-align: center;
+    clip-path: polygon(0 20% , 100% 0 , 100% 100% , 0 100%);
+    display: flex;   
+}
+.about{
+    width: 30%;
+    /* padding-top: 60px; */
+    color: #FFFFFF;
+}
+.about h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 170px;
+}
+.about p{
+    padding: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: justify;
+}
+.Important_Links{
+    width: 28%;
+    
+    color: #FFFFFF;    
+}
+.Important_Links h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-top: 170px;
+}
+.Important_Links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 26px;
+}
+.Important_Links img{
+    width: 18px;
+    height: 18px;
+    margin-right: 14px;
+}
+.Important_Links ul li{
+    text-align: justify;
+}
+.Important_Links ul li a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.Newsletter{
+    width: 42%;
+    padding-top: 60px;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+.Newsletter h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 130px;
+    
+}
+.Newsletter p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 26px;
+}
+.email{
+    background: #D84C4C;
+    border: 2px solid #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    height: 52px;
+    width: 370px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 26px;
+    margin-bottom: 15px;
+}
+.subscribe{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;  
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 153px;
+    height: 56px;
+    background: #D84C4C;
+    border: 2px solid #FFFFFF;
+    margin-left: -7px;
+}
+.CopyRight{
+    background: #D84C4C;
+    opacity: 0.99;
+    display: flex;
+    justify-content: center;
+
+}
+.CopyRight p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+

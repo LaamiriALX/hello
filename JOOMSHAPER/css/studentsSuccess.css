@@ -1,0 +1,189 @@
+
+.successStory{
+    width: 86%;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+.successStoryLG{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+
+}
+.successStoryLG img{
+    width: 100%;
+}
+.successStoryLG p{
+    margin-top: -82px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 5px;
+
+    color: #FFFFFF;
+}
+.success-Story{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+.successStorySM{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.successStorySM img {
+    width: 100%;
+    
+
+
+}
+.successStorySM p{  
+    margin-top: -49px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 3px;
+
+    color: #FFFFFF;
+}
+.next{
+    width: 132px;
+    height: 28px;
+    margin-left: 111px;
+    margin-top: 100px;
+}
+.Top-Courses-header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+    margin-left: 15%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.Top-Courses{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    flex-wrap: wrap;   
+}
+.header-recommanded-Courses{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+.header-recommanded-Courses h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.header-recommanded-Courses a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #EA5252;
+}
+.recommandedCourses{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Recommanded-categories-for-you{
+    width: 70%;
+    margin-left: 15%;
+    
+}
+.headeer-categories{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+
+}
+.categories ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    flex-wrap: wrap;
+    
+}
+.categories ul li{
+    margin-top: 10px;
+}
+.categories ul a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    border: #EA5252 1px solid ;
+    border-radius: 3px;
+    padding: 3px;
+    transition: 0.3s;
+
+}
+.categories ul a:hover{
+    background-color: #EA5252;
+}
+.theBestSellingCourses_headr{
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.theBestSellingCourses_headr h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+}
+
+.theBestSellingCourses_headr a{
+    text-decoration: none;
+    color: #EA5252;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    transition: 0.3s;
+}
+.theBestSellingCourses_headr a:hover{
+    transform: scale(1.2);
+}
+.BestSellingCourses{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 70px;
+}

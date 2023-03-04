@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+
+}
+.afich  {
+    width: 45%;
+}
+.afich img{
+    width: 100%;
+    
+    
+    
+    
+}
+.continte{
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+}
+.Welcome{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #EA5252;
+    margin-top: 23px;
+    margin-bottom: 4px;
+}
+.continte p{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+    color: #9D9D9D;
+    margin-bottom: 38px;
+}
+.email-spas{
+    
+    width: 348px;
+    text-align: center;
+    display: flex;
+}
+.email-spas:hover{
+    background-color: #aaaaaaa2;
+}
+.email-icon{
+    margin: 14px;
+    width: 28px;
+    height: 28px;
+}
+.email{
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    flex-grow: 2;
+    color: E5E5E5;
+    outline: none;
+}
+.password-spaa{
+    width: 348px;
+    text-align: center;
+    display: flex;
+}
+.password-spaa:hover{
+    background-color: #aaaaaaa2;
+}
+.password-icon{
+    margin: 14px;
+    width: 28px;
+    height: 28px;
+}
+.password{
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    flex-grow: 2;
+    color: #777777;
+    outline: none;
+}
+.rememberMe-ForgetPassword{
+    display: flex;
+    margin-top: 10px;
+}
+.rememberMe{
+    height: 17px;
+    width: 17px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.label{
+    flex-grow: 3;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #525252;
+}
+.ForgetPassword{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #525252;
+}
+.buttons{
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+.login-button{
+    width: 149px;
+    height: 38px;   
+    color: #EA5252;
+    border: #EA5252 2px solid;
+    border-radius: 4px;
+}
+.login-button:hover{
+    background: #EA5252;
+    color: white;
+}
+.createAccount-button{
+    width: 149px;
+    height: 38px;   
+    color: #EA5252;
+    border: #EA5252 2px solid;
+    border-radius: 4px;
+}
+.createAccount-button:hover{
+    background: #EA5252;
+    color: white;
+}
+.connectedWithUs{
+    margin-top: 42px;
+}
+.connectedWithUs p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #525252;
+}
+.SocilMedia{
+    display: flex;
+    gap: 18px;
+}
+.SocilMedia a{
+    transition: 0.3s;
+}
+.SocilMedia a:hover{
+    transform: scale(1.3);
+}
