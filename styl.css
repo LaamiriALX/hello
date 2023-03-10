@@ -2,7 +2,7 @@
 .cover{
     margin-left: 40px;
     margin-top: 70px;
-    background-image: url(/imgs/coverPhoto.jpg);
+    background-image: url(../imgs/coverPhoto.jpg);
     background-size: cover;
     height: 500px;
 }
@@ -50,7 +50,7 @@
 .cover{
     margin-left: 30px;
     margin-top: 70px;
-    background-image: url(/imgs/coverPhoto.jpg);
+    background-image: url(../imgs/coverPhoto.jpg);
     background-size: cover;
     height: 500px;
 }
